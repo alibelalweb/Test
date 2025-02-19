@@ -1,0 +1,17 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "بوت ديسكورد مع لوحة تحكم لتعديل الأوامر",
+  "main": "bot/index.js",
+  "scripts": {
+    "start": "node bot/index.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "fs-extra": "^11.1.1"
+  }
+}
